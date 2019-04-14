@@ -1,0 +1,4 @@
+FROM innobead/robotframework_demo
+
+RUN git clone git@github.com:SUSE/caaspctl.git && \
+    make
