@@ -1,3 +1,6 @@
+id_rsa
+output
+
 *.pyc
 *.tar.gz
 *.zip

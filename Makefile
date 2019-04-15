@@ -12,6 +12,5 @@ buildimage:
 
 .PHONY: clean
 clean:
-	@rm -rf results
-
+	@sudo rm -rf output 
 

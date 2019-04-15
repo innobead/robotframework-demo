@@ -1,8 +1,12 @@
 FROM innobead/robotframework_demo
 
+COPY id_rsa /root/.ssh/id_rsa
 COPY caaspctl-*.zip /project
 
-RUN unzip /project/caaspctl*.zip -d /project && \
-    cd /project/caaspctl*/ && \
-    make
-
+RUN chmod 600 /root/.ssh/id_rsa && \
+    mkdir -p /root/go/src/github.com/SUSE && \
+    unzip /project/caaspctl*.zip -d ~/go/src/github.com/SUSE/ && \
+    mv ~/go/src/github.com/SUSE/caasp* ~/go/src/github.com/SUSE/caaspctl && \
+    cd ~/go/src/github.com/SUSE/caaspctl && \
+    make && \
+    cp ~/go/bin/caaspctl /usr/local/bin/

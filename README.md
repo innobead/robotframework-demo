@@ -1,5 +1,11 @@
 Robotframework demo
 
+# Prerequites
+- Install python3
+- Install robotframework
+- Download released caaspctl*.zip artifact (in top folder)
+- Have github private key (id_rsa in top folder)
+
 # Goals
 - Show us how easy it is to create a test.
 - Show us how easy it is to read the logs and find out what happened.
