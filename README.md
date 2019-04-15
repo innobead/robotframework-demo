@@ -38,6 +38,9 @@ robot --xunit xunit.xml --debugfile debug.log --loglevel INFO --outputdir output
 docker run -v `pwd`:/project caaspautotest --xunit xunit.xml --debugfile debug.log --loglevel INFO --outputdir output -v version:0.2.0 tests/
 ```
 
+## Demo
+[![asciicast](https://asciinema.org/a/ZdB5LSvQNdAd2UK7wEqLBaWZx.svg)](https://asciinema.org/a/ZdB5LSvQNdAd2UK7wEqLBaWZx)
+
 # Misc
 - Enable syntax highlight in vim
 
