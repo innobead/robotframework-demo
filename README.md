@@ -7,9 +7,9 @@ Robotframework demo
 - Have github private key (id_rsa in top folder)
 
 # Goals
-- Show us how easy it is to create a test.
-- Show us how easy it is to read the logs and find out what happened.
-- Show us how easy it is to run the test from our machine. 
+- Show how easy it is to create a test.
+- Show how easy it is to read the logs and find out what happened.
+- Show how easy it is to run the test from our machine. 
 That also means how easy it is to add all the required packages for the test env to be ready.
 
 ## Goal 1: how easy to create a test
