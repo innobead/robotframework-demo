@@ -41,7 +41,7 @@ docker run -v `pwd`:/project caaspautotest --xunit xunit.xml --debugfile debug.l
 ## Demo (write, run test)
 [![asciicast](https://asciinema.org/a/ZdB5LSvQNdAd2UK7wEqLBaWZx.svg)](https://asciinema.org/a/ZdB5LSvQNdAd2UK7wEqLBaWZx)
 
-## Demo (test log)
+## Demo (check test log)
 [![asciicast](https://asciinema.org/a/dQgsZBk8WMJ4fc8FAXLLNLkYR.svg)](https://asciinema.org/a/dQgsZBk8WMJ4fc8FAXLLNLkYR)
 
 # Misc
